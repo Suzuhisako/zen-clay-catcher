@@ -64,7 +64,7 @@ cd zen-clay-catcher
 
 # Open index.html in your browser or run via VS Code Live Server
 
----
+
 
 
 ##  📝 License
