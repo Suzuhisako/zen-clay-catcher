@@ -57,19 +57,29 @@ No complex setup or build steps required. Simply clone the repository and open `
 
 ```bash
 # Clone the repository
-git clone [https://github.com/suzuhisako/zen-clay-catcher.git](https://github.com/suzuhisako/zen-clay-catcher.git)
+git clone https://github.com/suzuhisako/zen-clay-catcher.git
 
 # Navigate to the project directory
 cd zen-clay-catcher
 
 # Open index.html in your browser or run via VS Code Live Server
 
-
-
-
----
-
 📝 License
 Distributed under the MIT License. See LICENSE for details.
 
 Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
+
+
+---
+
+### How to Update It in VS Code & Push to GitHub
+
+1. Open `README.md` in VS Code.
+2. Paste the snippet above right after your ```` ``` ```` code fence.
+3. Save the file (`Ctrl + S` or `Cmd + S`).
+4. Run these terminal commands to push the updated README to GitHub:
+
+```bash
+git add README.md
+git commit -m "Update README with License section"
+git push
