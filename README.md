@@ -67,7 +67,9 @@ cd zen-clay-catcher
 
 
 
-##  📝 License
+---
+
+📝 License
 Distributed under the MIT License. See LICENSE for details.
 
-# Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
+Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
