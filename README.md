@@ -1,4 +1,4 @@
-# 陶芸 · Zen Ceramic Catcher
+# 陶芸 · Zen Clay Catcher
 
 > *A calm, minimalist HTML5 canvas web game inspired by traditional Japanese pottery aesthetics (Wabi-Sabi).*
 
