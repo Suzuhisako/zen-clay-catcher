@@ -31,7 +31,7 @@ Rather than fast-paced pressure, the scoring and audio systems encourage a calm 
 | Metric | Description |
 | :--- | :--- |
 | **Shaped (成形)** | Total clay collected. Standard Clay (+1), Tenmoku (+2), Kintsugi Gold (+5). |
-| **Harmony (和合)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
+| **Harmony (調和)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
 | **Peak (極)** | Your all-time highest Harmony streak saved on your local device. |
 
 ---
