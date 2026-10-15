@@ -1,4 +1,4 @@
-# 陶芸 · Zen Clay Catcher
+# 陶芸 · Zen Ceramic Catcher
 
 > *A calm, minimalist HTML5 canvas web game inspired by traditional Japanese pottery aesthetics (Wabi-Sabi).*
 
@@ -9,9 +9,9 @@
 
 ## 🍵 About the Game
 
-**Zen Clay Catcher** is a mobile-optimized, browser-based web game designed to offer a peaceful, meditative experience. Players slide or tap to steer a stoneware Tenmoku bowl, gathering soft earthen clay drifting down from above to shape traditional ceramics.
+**Zen Ceramic Catcher** is a mobile-optimized, browser-based web game designed to offer a peaceful, meditative experience. Players slide or tap to steer a stoneware Tenmoku bowl, gathering soft earthen clay drifting down from above to shape traditional ceramics.
 
-Rather than fast-paced pressure, the scoring and audio systems encourage a calm state of flow and rhythmic concentration (*Zanshin/残心*).
+Rather than fast-paced pressure, the scoring and audio systems encourage a calm state of flow and rhythmic concentration (*Zanshin*).
 
 ---
 
@@ -31,7 +31,7 @@ Rather than fast-paced pressure, the scoring and audio systems encourage a calm 
 | Metric | Description |
 | :--- | :--- |
 | **Shaped (成形)** | Total clay collected. Standard Clay (+1), Tenmoku (+2), Kintsugi Gold (+5). |
-| **Harmony (調和)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
+| **Harmony (和合)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
 | **Peak (極)** | Your all-time highest Harmony streak saved on your local device. |
 
 ---
@@ -57,14 +57,17 @@ No complex setup or build steps required. Simply clone the repository and open `
 
 ```bash
 # Clone the repository
-git clone https://github.com/suzuhisako/zen-clay-catcher.git
+git clone [https://github.com/suzuhisako/zen-clay-catcher.git](https://github.com/suzuhisako/zen-clay-catcher.git)
 
 # Navigate to the project directory
 cd zen-clay-catcher
 
 # Open index.html in your browser or run via VS Code Live Server
+```
 
-📝 License
+---
+
+## 📝 License
 Distributed under the MIT License. See LICENSE for details.
 
 Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
@@ -72,14 +75,13 @@ Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
 
 ---
 
-### How to Update It in VS Code & Push to GitHub
+### Key Things Fixed:
+1. **Line Breaks:** The bash commands (`# Clone the repository`, `git clone ...`, etc.) are now placed on their own separate lines.
+2. **Code Block Syntax:** The three backticks (```) cleanly open and close the code block so GitHub formats it nicely.
+3. **No Extra Chat Text:** Removed the step-by-step instructions (`### How to Update It in VS Code...`) from inside the file.
 
-1. Open `README.md` in VS Code.
-2. Paste the snippet above right after your ```` ``` ```` code fence.
-3. Save the file (`Ctrl + S` or `Cmd + S`).
-4. Run these terminal commands to push the updated README to GitHub:
-
+Once you paste this into VS Code and save, push it up using:
 ```bash
 git add README.md
-git commit -m "Update README with License section"
+git commit -m "Fix README formatting and code block"
 git push
