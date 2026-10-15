@@ -9,9 +9,9 @@
 
 ## 🍵 About the Game
 
-**Zen Ceramic Catcher** is a mobile-optimized, browser-based web game designed to offer a peaceful, meditative experience. Players slide or tap to steer a stoneware Tenmoku bowl, gathering soft earthen clay drifting down from above to shape traditional ceramics.
+**Zen Clay Catcher** is a mobile-optimized, browser-based web game designed to offer a peaceful, meditative experience. Players slide or tap to steer a stoneware Tenmoku bowl, gathering soft earthen clay drifting down from above to shape traditional ceramics.
 
-Rather than fast-paced pressure, the scoring and audio systems encourage a calm state of flow and rhythmic concentration (*Zanshin*).
+Rather than fast-paced pressure, the scoring and audio systems encourage a calm state of flow and rhythmic concentration (*Zanshin/残心*).
 
 ---
 
