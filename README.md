@@ -64,7 +64,9 @@ cd zen-clay-catcher
 
 # Open index.html in your browser or run via VS Code Live Server
 
-## 📝 License
+---
+
+##  📝 License
 Distributed under the MIT License. See LICENSE for details.
 
-## Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
+# Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
