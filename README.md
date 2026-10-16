@@ -31,7 +31,7 @@ Rather than fast-paced pressure, the scoring and audio systems encourage a calm 
 | Metric | Description |
 | :--- | :--- |
 | **Shaped (成形)** | Total clay collected. Standard Clay (+1), Tenmoku (+2), Kintsugi Gold (+5). |
-| **Harmony (和合)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
+| **Harmony (調和)** | Your unbroken streak of consecutive catches. Missing resets streak to 0. |
 | **Peak (極)** | Your all-time highest Harmony streak saved on your local device. |
 
 ---
@@ -73,15 +73,3 @@ Distributed under the MIT License. See LICENSE for details.
 Embrace the rhythm of the wheel. 一期一会 (One time, one meeting).
 
 
----
-
-### Key Things Fixed:
-1. **Line Breaks:** The bash commands (`# Clone the repository`, `git clone ...`, etc.) are now placed on their own separate lines.
-2. **Code Block Syntax:** The three backticks (```) cleanly open and close the code block so GitHub formats it nicely.
-3. **No Extra Chat Text:** Removed the step-by-step instructions (`### How to Update It in VS Code...`) from inside the file.
-
-Once you paste this into VS Code and save, push it up using:
-```bash
-git add README.md
-git commit -m "Fix README formatting and code block"
-git push
