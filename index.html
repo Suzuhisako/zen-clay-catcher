@@ -440,15 +440,26 @@
 
       openHistoryModal() {
         const records = JSON.parse(localStorage.getItem('zen_clay_records') || '[]');
+        
+        // Map difficulty keys to their Japanese/Bilingual display forms
+        const diffMap = {
+          'zen': 'Zen · 寛',
+          'standard': 'Standard · 正',
+          'master': 'Master · 精'
+        };
+
         if (records.length === 0) {
-          this.scoreHistoryList.innerHTML = '<div style="text-align:center; padding: 12px; color: var(--ink-muted);">No records yet. Begin your practice!</div>';
+          this.scoreHistoryList.innerHTML = '<div style="text-align:center; padding: 12px; color: var(--ink-muted);">No records yet. Begin your practice!<br><span style="font-size: 10px; opacity: 0.8;">まだ作記録がありません。修行を始めましょう</span></div>';
         } else {
-          this.scoreHistoryList.innerHTML = records.map(r => `
-            <div class="score-row">
-              <span>${r.date} (${r.diff || 'zen'})</span>
-              <span>Shaped: <strong>${r.score}</strong> (Peak: ${r.peak})</span>
-            </div>
-          `).join('');
+          this.scoreHistoryList.innerHTML = records.map(r => {
+            const diffLabel = diffMap[r.diff] || 'Zen · 寛';
+            return `
+              <div class="score-row">
+                <span>${r.date} <small style="color: var(--ink-muted);">(${diffLabel})</small></span>
+                <span>成形: <strong>${r.score}</strong> <small style="color: var(--ink-muted);">(極: ${r.peak})</small></span>
+              </div>
+            `;
+          }).join('');
         }
         this.historyOverlay.classList.remove('hidden');
       }
